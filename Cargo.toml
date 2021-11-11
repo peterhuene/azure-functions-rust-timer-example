@@ -1,0 +1,12 @@
+[package]
+name = "handler"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+warp = "0.3"
+tokio = { version = "1", features = ["rt", "macros", "rt-multi-thread"] }
+serde = { version = "1.0.130", features = ["derive"] }
+serde_json = "1.0.69"
+pretty_env_logger = "0.4.0"
+log = "0.4.14"
